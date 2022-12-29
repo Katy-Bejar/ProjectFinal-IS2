@@ -29,8 +29,19 @@ Para el análisis estático del código fuente se usó la herramienta de softwar
 
 
 ## Pruebas de Seguridad:
+Se realizaron las pruebas de seguridad usando OWASP ZAP y estos fueron los resultados obtenidos:
 
+#### Escaneo Activo
+![](Images/i2.jpeg)
 
+#### Alertas
+![](Images/i3.jpeg)
+
+#### Spider (URLs)
+![](Images/i4.jpeg)
+
+#### Spider (Messages)
+![](Images/i5.jpeg)
 
 ## Pruebas de Performance:
 
