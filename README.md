@@ -1,4 +1,3 @@
-# ProjectFinal-IS2
 # Integración Continua/Despliegue Continuo (CI/CD)
 ## Pipeline:
 
