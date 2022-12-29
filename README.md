@@ -7,15 +7,15 @@
 ## Análisis Estático: 
 Para el análisis estático del código fuente se usó la herramienta de software SonarQube y su aditivo SonarQube Scanner.
 
-stage('Analisis estatico') {
-  steps {
-      echo 'SonarQube...'
-      withSonarQubeEnv('SonarQube') {
-          bat "C:\\sonar\\sonar-scanner\\bin\\sonar-scanner.bat"
+    stage('Analisis estatico') {
+      steps {
+          echo 'SonarQube...'
+          withSonarQubeEnv('SonarQube') {
+              bat "C:\\sonar\\sonar-scanner\\bin\\sonar-scanner.bat"
+          }
       }
-  }
-}
-    
+    }
+
     
 ![](Images/i1.jpeg)
 
