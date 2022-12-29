@@ -5,6 +5,9 @@
 
 
 ## Análisis Estático: 
+Para el análisis estático del código fuente se usó la herramienta de software SonarQube y su aditivo SonarQube Scanner.
+![](Imagenes/i1.jpeg)
+
 
 
 ## Pruebas Unitarias:
