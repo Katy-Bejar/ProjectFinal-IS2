@@ -1,10 +1,14 @@
-# Integración Continua/Despliegue Continuo (CI/CD)
+## ONLINE BOOK STORE
+
+![](Images/capture4.png)
 
 ## INTEGRANTES:
     - Edson Bryan Béjar Román
     - Katherine Nikole Béjar Román
     - Yanira Angie Suni Quispe
     
+
+# Integración Continua/Despliegue Continuo (CI/CD)
     
 ## Pipeline:
     pipeline {
