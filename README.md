@@ -46,7 +46,20 @@
 
 
 ## Construcción Automática:
+Para la construcción automática del proyecto usamos Maven:
 
+Instalación:
+
+sudo apt install maven
+
+mvn -version
+
+![](Images/capture.png)
+
+Archivo pom.xml
+
+![](Images/capture1.png)
+![](Images/capture2.png)
 
 ## Análisis Estático: 
 Para el análisis estático del código fuente se usó la herramienta de software SonarQube y su aditivo SonarQube Scanner.
