@@ -2,9 +2,8 @@
 ## Pipeline:
     pipeline {
         agent any
-
+        
         tools {
-            // Install the Maven version configured as "M3" and add it to the path.
             node.js "node"
         }
 
@@ -22,14 +21,14 @@
                 }
             }
 
-            stage('Análisis estático') {
+            stage('Analisis estatico') {
                   steps {
-                      echo 'SonarQube...'
+                      echo 'SonarQube'
                       withSonarQubeEnv('SonarQube') {
                           bat "C:\sonar-scanner-4.7.0.2747-windows\bin\sonar-scanner.bat"
                       }
                   }
-                }
+            }
 
             stage('Prueba Unitaria') {
                 steps {
