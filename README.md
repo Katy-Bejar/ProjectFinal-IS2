@@ -1,6 +1,6 @@
 # Integración Continua/Despliegue Continuo (CI/CD)
 
-##INTEGRANTES:
+## INTEGRANTES:
     - Edson Bryan Béjar Román
     - Katherine Nikole Béjar Román
     - Yanira Angie Suni Quispe
