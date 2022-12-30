@@ -26,26 +26,27 @@ Para el análisis estático del código fuente se usó la herramienta de softwar
 
 ## Pruebas Funcionales:
 Se realizaron test funcionales con la herramienta de Selenium para la validación del email Id, para lo cual se realizaron los siguientes tests.
-        def test1(self): 
-            email = "ebejarr@unsa.edu.pe"
-            esperado = check(email)
-            print("TEST 1: ", email)
-            self.assertEqual(WebTester(email), esperado)
-        def test2(self): 
-            email = "ggdeebor@gmailcom"
-            esperado = check(email)
-            print("TEST 2: ", email)
-            self.assertEqual(WebTester(email), esperado)
-        def test3(self): 
-            email = "ikikop@gmai.com"
-            esperado = check(email)
-            print("TEST 3: ", email)
-            self.assertEqual(WebTester(email), esperado)
-        def test4(self): 
-            email = "@datagmail.com"
-            esperado = check(email)
-            print("TEST 4: ", email)
-            self.assertEqual(WebTester(email), esperado)
+
+    def test1(self): 
+        email = "ebejarr@unsa.edu.pe"
+        esperado = check(email)
+        print("TEST 1: ", email)
+        self.assertEqual(WebTester(email), esperado)
+    def test2(self): 
+        email = "ggdeebor@gmailcom"
+        esperado = check(email)
+        print("TEST 2: ", email)
+        self.assertEqual(WebTester(email), esperado)
+    def test3(self): 
+        email = "ikikop@gmai.com"
+        esperado = check(email)
+        print("TEST 3: ", email)
+        self.assertEqual(WebTester(email), esperado)
+    def test4(self): 
+        email = "@datagmail.com"
+        esperado = check(email)
+        print("TEST 4: ", email)
+        self.assertEqual(WebTester(email), esperado)
 
 
 ## Pruebas de Seguridad:
