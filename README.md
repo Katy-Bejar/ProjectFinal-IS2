@@ -41,12 +41,6 @@
                   }
             }
 
-            stage('Prueba Unitaria') {
-                steps {
-                    bat 'npm test'
-                }
-            }
-
             stage('build') {
                 steps {
                     bat 'npm install'
