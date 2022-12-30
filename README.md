@@ -1,5 +1,50 @@
 # Integración Continua/Despliegue Continuo (CI/CD)
 ## Pipeline:
+    pipeline {
+        agent any
+
+        tools {
+            // Install the Maven version configured as "M3" and add it to the path.
+            node.js "node"
+        }
+
+        stages {
+            stage('Copy Repository') {
+                steps {
+                    // Get some code from a GitHub repository
+                    git 'https://github.com/Katy-Bejar/ProjectFinal-IS2/tree/master.git'
+                }
+            }
+
+            stage('Install dependency') {
+                steps {
+                    bat 'npm install'
+                }
+            }
+
+            stage('Análisis estático') {
+                  steps {
+                      echo 'SonarQube...'
+                      withSonarQubeEnv('SonarQube') {
+                          bat "C:\sonar-scanner-4.7.0.2747-windows\bin\sonar-scanner.bat"
+                      }
+                  }
+                }
+
+            stage('Prueba Unitaria') {
+                steps {
+                    bat 'npm test'
+                }
+            }
+
+            stage('build') {
+                steps {
+                    bat 'npm install'
+                }
+            }
+        }
+    }
+
 
 ## Construcción Automática:
 
