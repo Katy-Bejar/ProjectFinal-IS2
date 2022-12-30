@@ -89,9 +89,6 @@ Para el análisis estático del código fuente se usó la herramienta de softwar
 
 
 
-## Pruebas Unitarias:
-
-
 ## Pruebas Funcionales:
 Se realizaron test funcionales con la herramienta de Selenium para la validación del email Id, para lo cual se realizaron los siguientes tests.
 
